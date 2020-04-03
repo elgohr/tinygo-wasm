@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinygo-wasm-bootstrap</title>
+</head>
+<body>
+
+<input type="text" id="some-field" value=""/>
+<button onClick="wasm.exports.changeValue();" id="runButton">Run</button>
+
+<script src="js/wasm_exec.js"></script>
+<script src="js/wasm_boostrap.js"></script>
+
+</body>
+</html>
